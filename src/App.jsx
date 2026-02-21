@@ -26,13 +26,13 @@ function App() {
     { id: 21, top: 100, left: 800 },
   ];
   const leaderboard = [
-    { name: "Laila", points: 12 },
-    { name: "Karin", points: 11 },
-    { name: "Yara", points: 3 },
-    { name: "Amira", points: 10 },
-    { name: "Maya", points: 10 },
-    { name: "Sara", points: 8 },
-    { name: "Nora", points: 5 },
+    { name: "مايا مينا ", points: 0 },
+    { name: "جولينا رامز", points: 0 },
+    { name: "ساندي سامح", points: 0 },
+    { name: "ماريا هاني", points: 0 },
+    { name: "كاندي مايكل", points: 0 },
+    { name: "بيرناديت ماجد", points: 0 },
+    { name: "هولي نعيم", points: 0 },
   ];
   const sortedLeaderboard = [...leaderboard].sort(
     (a, b) => b.points - a.points
